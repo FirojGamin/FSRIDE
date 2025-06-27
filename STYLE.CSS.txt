@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-group label {
+        margin-bottom: 5px;
+    }
+}/* Add to your existing CSS */
+@media screen and (max-width: 600px) {
+    input, select, textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .search-box input {
+        width: 60%;
+    }
+    
+    .search-box button {
+        width: 18%;
+        margin-left: 2%;
+    }
+}
